@@ -16,7 +16,8 @@ https://github.com/huzpsb/AIAClient
 第一步，是计算SHB(SignedHitBox)
 什么是SHB?简单而言，SHB大小等于攻击一个实体，实体所需的最小正方形HitBox。
 没听懂？没事，有图：
-![SHB](https://attachment.mcbbs.net/public/resource/5265dbaf-76f5-46b8-bd8d-cb2826c844b0.png)
+![image](https://user-images.githubusercontent.com/41772578/175223257-36d1891e-bdb7-4eeb-8175-429dc9b9820e.png)
+
 SHB的符号取决于箭头相对于连线是顺时针还是逆时针。
 第二步，是进行FFT。
 什么事FFT?唉，好累，不想码字。得了，[传送门](https://zhuanlan.zhihu.com/p/347091298)
@@ -41,10 +42,11 @@ SHB的符号取决于箭头相对于连线是顺时针还是逆时针。
 最后，是训练与计算。本部分不开源。但是也不混淆。你们，看着办。
 通讯写好了，最难的还是得扛。来吧！
 首先，我构造了一个5层的神经网络，节点数为22,30,30,30,3。
-![LAYER](https://attachment.mcbbs.net/public/resource/10319bdd-e6f0-40ff-b2b4-35f6aecc63e8.png)
+![image](https://user-images.githubusercontent.com/41772578/175223295-cd1115aa-a402-45a6-8a75-d3069fd63cf5.png)
+
 刚开始，我以为我所有努力白费了。因为模型死活不收敛。
 后来，因为一次意外，我训练次数多打了亿个0，然后就去睡觉了
-![image.png](https://attachment.mcbbs.net/public/resource/c42017cf-3d74-4daa-9758-9eb567ea4730.png)
+![image](https://user-images.githubusercontent.com/41772578/175223325-fe147988-2790-4aa7-8358-dbb3ee9c24e7.png)
 第二天起来，我发现这个训练了13万次的神经网络后验准确率已经有了99%。
 这个模型就这我发布的演示版内。
 计算没什么新鲜的，得了，略去（doge）
@@ -54,7 +56,7 @@ SHB的符号取决于箭头相对于连线是顺时针还是逆时针。
 ## **使用方法**
 ~~终于入题了是吧~~
 **1,** 运行AI-AC服务端。
-![image.png](https://attachment.mcbbs.net/public/resource/e218eee9-fc29-4070-bcf9-4d44f1dff875.png)
+![image](https://user-images.githubusercontent.com/41772578/175223344-6ce7ae22-fe92-4540-8c4f-d060a5f946b2.png)
 应该，都会吧？
 **2,** 为自己创建账号。
 set <用户名> <有效期(天)> <ip> <调用次数限制>
