@@ -1,0 +1,8 @@
+name: AI-AC
+main: cf.huzpsb.cm.main
+version: 1
+author: huzpsb
+commands:
+  type:
+    description: Set data type.
+    usage: /type <label>
