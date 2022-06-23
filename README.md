@@ -187,5 +187,5 @@ https://huzpsb.lanzouw.com/b09heaish
 
 捐献资金：https://afdian.net/@huzpsb
 
-感谢来自华中科技大学数学系的刘老师，光学与电子信息学院的郑老师
+感谢来自华中科技大学数学系的刘老师，光学与电子信息学院的郑老师，The **[Eclipse Deeplearning4J](https://deeplearning4j.konduit.ai/)** (DL4J) ecosystem
 
