@@ -194,7 +194,7 @@ https://huzpsb.lanzouw.com/b09heaish
 
 ## **完结撒花**
 
-捐献数据: 邮件到huzpsb@qq.com 标题注明[AI-AC捐献]
+捐献数据: 邮件到huzpsb@qq.com 标题注明[AI-AC捐献] 或者加群
 
 捐献资金：https://afdian.net/@huzpsb
 
