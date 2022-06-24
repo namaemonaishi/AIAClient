@@ -14,6 +14,9 @@ https://github.com/huzpsb/AIAClient
 
 本项目只是POC，并没有完善人工智能以外的其他部分。即本项目的唯一功能是：在假设所有攻击全部是能够被完成的前提下，判断玩家是否使用了第三方瞄准工具。（推荐配合Grim食用）
 
+[![State-of-the-art Shitcode](https://img.shields.io/static/v1?label=State-of-the-art&message=Shitcode&color=7B5804)](https://github.com/trekhleb/state-of-the-art-shitcode)
+
+
 ## **原理**
 
 在明确了本工具只是一个技术测试项目的前提下，我们可以来聊一聊原理而不是急着说该怎么用。
