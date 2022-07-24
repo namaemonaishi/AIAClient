@@ -9,8 +9,8 @@ public class CloudAPI {
         throw new UnsupportedOperationException("This is an util!");
     }
 
-    public static int cloud_calc(String server, int port, double[] input) {
-        try (Socket socket = new Socket(server, port)) {
+    public static int cloud_calc(String server, double[] input) {
+        try (Socket socket = new Socket(server, AIServer.port)) {
             ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
             oos.writeObject(new TestData(input));
             ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
